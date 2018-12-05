@@ -1,0 +1,5 @@
+[27-May-2016 20:04:22 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/multiuser/public_html/test1/multiweld/Controller/Business_Action_Controller/Quation_Controller.php on line 29
+[27-May-2016 20:04:29 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/multiuser/public_html/test1/multiweld/Controller/Business_Action_Controller/Quation_Controller.php on line 29
+[01-Jun-2016 12:24:06 Asia/Kolkata] PHP Fatal error:  Call to a member function format() on a non-object in /home/multiuser/public_html/test1/multiweld/Model/Business_Action_Model/Stocktransfer_Model.php on line 142
+[01-Jun-2016 12:25:04 Asia/Kolkata] PHP Fatal error:  Call to a member function format() on a non-object in /home/multiuser/public_html/test1/multiweld/Model/Business_Action_Model/Stocktransfer_Model.php on line 142
+[01-Jun-2016 15:18:29 Asia/Kolkata] PHP Fatal error:  Call to a member function format() on a non-object in /home/multiuser/public_html/test1/multiweld/Model/Business_Action_Model/Stocktransfer_Model.php on line 142

@@ -1,0 +1,102 @@
+/*######## Smart Green ########*/
+.clr{ margin:0px; height:0px; padding:0px; clear:both;}
+.smart-green {
+    margin-left:auto;
+    margin-right:auto;
+
+    max-width: 95%;
+    /*background: #F8F8F8;*/
+    padding: 30px 30px 20px 30px;
+    font:normal, 12px Arial, Helvetica, sans-serif;
+    color: #00002d;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+.smart-green h1 {
+    font: 24px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    padding: 8px 0px 5px 40px;
+    display: block;
+    margin: -10px -30px 10px -30px;
+    color: #233C57;
+    background: #ffffff;
+    text-shadow: 1px 1px 1px #233C57;
+    border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+
+}
+.smart-green h1>span {
+    display: block;
+    font-size: 11px;
+    color: #FFF;
+}
+
+.smart-green label {
+    display: block;
+    margin: 0px 0px 5px;
+}
+.smart-green label>span {
+    float: left;
+    margin-top: 10px;
+    color: #5E5E5E;
+    font-weight: normal;
+}
+.smart-green input[type="text"],.smart-green input[type="password"], .smart-green input[type="email"], .smart-green textarea, .smart-green select {
+    color: #161616;
+    height: 22px;
+    line-height:20px;
+    width: 90%;
+    padding: 0px 0px 0px 10px;
+    margin-top: 2px;
+    border: 1px solid #000;
+    background: #FBFBFB;
+    outline: 0;
+    -webkit-box-shadow: inset 1px 1px 2px rgba(238, 238, 238, 0.2);
+    box-shadow: inset 1px 1px 2px rgba(238, 238, 238, 0.2);
+    font: bold 14px/14px Arial, Helvetica, sans-serif;
+}
+.smart-green textarea{
+    height:100px;
+    padding-top: 10px;
+}
+.smart-green select {
+    background: url('../img/down-arrow.png') no-repeat right, -moz-linear-gradient(top, #FBFBFB 0%, #E9E9E9 100%);
+    background: url('../img/down-arrow.png') no-repeat right, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FBFBFB), color-stop(100%,#E9E9E9));
+   appearance:none;
+    -webkit-appearance:none; 
+   -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    width:93%;
+    height:22px;
+}
+.smart-green .button {
+    background-color: #025F8B;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-border-radius: 5px;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #949494;
+}
+.smart-green .button:hover {
+    background-color:#80A24A;
+}
+table,th,td
+{
+border:1px solid black;
+border-collapse:collapse;
+}
+
+/*AutoComplete */
+.autocomplete-suggestions { border: 1px solid #999; background: #FFF; cursor: default; overflow: auto;
+                             -webkit-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64);
+                              -moz-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); 
+                              box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); }
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+.autocomplete-no-suggestion { padding: 2px 5px;}
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: normal; color: #3399FF; }
+/* */

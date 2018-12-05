@@ -1,0 +1,179 @@
+.comlist {FONT-WEIGHT: normal;font-size: 8pt;margin: 0px;COLOR: #000000;FONT-FAMILY: verdana; BACKGROUND-COLOR: #FFFFFF;border-style: solid;border-width: 0;}
+.comlist_link_over {FONT-WEIGHT: normal;font-size: 8pt;margin:0px;COLOR: #000000;FONT-FAMILY: verdana; BACKGROUND-COLOR: #FFFFCC;border-style: solid;border-width: 0;}
+div.suggestions {
+    moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size:10pt;
+    border: 1px solid black;
+    position: absolute; 
+    background-color: #FFFFFF;
+    height: auto; 
+    width: 350px;
+    
+}
+div.datesuggestions {
+    moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size:10pt;
+    border: 1px solid black;
+    position: absolute; 
+    background-color: #FFFFFF;
+    height: auto; 
+    width: auto; 
+    
+}
+
+div.fileBoxsuggestions {
+    moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size:10pt;
+    border: 1px solid black;
+    position: absolute; 
+    background-color: #FFFFFF;
+    height: auto; 
+    width: auto;
+    border-color:red;
+}
+div.CCsuggestions {
+    moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size:10pt;
+    border: 1px solid black;
+    position: absolute; 
+    background-color: #FFFFFF;
+    height: auto; 
+    width: auto;
+    border-color:red;
+}
+.input.hide
+{
+position:absolute;
+-moz-opacity:0;
+filter:alpha(opacity: 0);
+opacity: 0;
+width:25px;
+z-index: 2;
+cursorointer;
+
+}
+
+.input.red
+{
+background-color:#FFFFFF;
+font-weight:bold;
+color:#ffffff;
+z-index:1;
+font-size:10px;
+}
+.nText {font-family:"verdana";font-size:"12"; TEXT-DECORATION:none; color:blue; text-align:right}
+        .nText:visited {font-family:"verdana";font-size:"12";TEXT-DECORATION:none;color:blue}
+        .nText:hover {font-family:"verdana";font-size:"12";TEXT-DECORATION:none;color:darkred}
+
+
+.High {background:#999999;margin-left:auto;margin-right:auto;FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR:WHITE; FONT-FAMILY: verdana; border: 1px;}
+.tBDet {background:#cccccc;margin-left:auto;margin-right:auto;FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: verdana; border: 1px;}
+
+.tDet{FONT-WEIGHT: normal;FONT-SIZE:7pt;COLOR:#000000;FONT-FAMILY:verdana;border:1px;solid #666699}
+.tDet.visited {FONT-WEIGHT: normal;FONT-SIZE: 7pt;COLOR: #000000;FONT-FAMILY:verdana;border:1px;solid #666699}
+.tDet.hover {FONT-WEIGHT: normal;FONT-SIZE: 7pt;COLOR: RED;FONT-FAMILY:verdana;border:1px;solid #666699}
+
+.tBHead {background:#666699;
+	margin-left:auto;margin-right:auto;
+	FONT-WEIGHT: normal; 
+    	FONT-SIZE: 8 pt; 
+	margin: 0px;
+	COLOR: #ffffff; 
+	FONT-FAMILY: verdana;
+        border-collapse:collapse;
+        border: 1px solid #666699
+}
+
+
+
+
+.menutextbox {FONT-WEIGHT: normal;font-size: 8pt;margin: 0px;COLOR: #000000;FONT-FAMILY: verdana; BACKGROUND-COLOR: #cccccc;border-style: solid;border-width: 0;cursor:hand;}
+
+.selectfile {FONT-WEIGHT: normal;font-size: 8pt;margin: 0px;COLOR: #FFFFFF;FONT-FAMILY: verdana; BACKGROUND-COLOR: #FFFFFF;border-style: solid;border-width: 0;cursor:hand;}
+
+.input1 {FONT-WEIGHT: normal;font-size: 8pt;margin: 0px;COLOR: #000000;FONT-FAMILY: verdana; BACKGROUND-COLOR: #FFFFFF;border-style: solid;border-width: 1;border-color: #666699;}
+
+.comboStyle {FONT-WEIGHT: normal;font-size: 8pt;width :150px ;margin: 0px;COLOR: #000000;FONT-FAMILY: verdana; BACKGROUND-COLOR: #FFFFFF;border-style: solid;border-width: 1;border-color: #666699;}
+
+.inputMenu {FONT-WEIGHT: normal;font-size: 8pt;margin: 0px;COLOR: #000000;FONT-FAMILY: verdana; BACKGROUND-COLOR: #DBDBEA;border-style: solid;border-width: 1;border-color: #666699;}
+
+.inputDr {FONT-WEIGHT: normal;font-size: 8pt;margin: 0px;COLOR: #000000;FONT-FAMILY: verdana; BACKGROUND-COLOR: #FFFFFF;border-style: NORMAL;border-width: 0;border-color: #FFFFFF;}
+
+.dmsbggr {
+	background-image:url('images/backgr1.png');
+	margin-left:auto;margin-right:auto;
+	FONT-WEIGHT: normal; 
+    	FONT-SIZE: 10 pt; 
+}
+.menubackgr {
+	background-image:url('images/menubkgr2.png');
+	
+}
+.loginfont{FONT-WEIGHT: bold;FONT-SIZE:11pt;COLOR:#000000;FONT-FAMILY:verdana;border:1px;solid #666666}
+.gridframeset
+{
+	background:#F9F8F8;
+	topmargin="0";
+	leftmargin="0";
+	font-size:10pt;
+	color:green;
+	border-color:#999999;
+	font-family:verdana;	     /*arial,sans-serif,courier*/	
+	font-weight: normal;          /*bold,bolder,normal,lighter*/
+	font-style:normal;         /*normal,italic,oblique*/
+	align:center;
+	border-width:2px;
+}
+.inputUser {FONT-WEIGHT: normal;font-size: 10pt;margin: 0px;COLOR: #000000;FONT-FAMILY: verdana; BACKGROUND-COLOR: #FFFFFF;border-style: solid;border-width: 1;border-color: #666666;}
+
+.legend
+{
+	topmargin="0";
+	leftmargin="0";
+	font-size:11pt;
+	color:#666666;
+	border-color:#999999;
+	font-family:verdana;	     /*arial,sans-serif,courier*/	
+	font-weight: bold;          /*bold,bolder,normal,lighter*/
+	font-style:normal;         /*normal,italic,oblique*/
+}
+
+.tabHeader {
+	//background-image:url('images/menubkgr1.png');
+	background-image:url('images/grbkground.png');
+	margin-left:auto;margin-right:auto;
+		FONT-WEIGHT: normal; 
+	    	FONT-SIZE: 8 pt; 
+		margin: 0px;
+		COLOR: #ffffff; 
+		FONT-FAMILY: verdana;
+	        border-collapse:collapse;
+        border: 1px solid #666699
+}
+.othreltable{
+  background:#EBDDE2;
+  FONT-WEIGHT: normal;
+  FONT-SIZE:7pt;
+  COLOR:#000000;
+  FONT-FAMILY:verdana;
+  border:1px;
+  
+}
+.dmsbackgr {
+	background-image:url('images/backgr2.png');
+	
+}
+.lTitle{FONT-SIZE: 14pt; COLOR: #000000; FONT-style:normal; FONT-FAMILY: Verdana; FONT-WEIGHT: normal; TEXT-DECORATION: none}
+
+.butt123{FONT-WEIGHT: bold;font-size: 8pt;FONT-FAMILY:  verdana;	LINE-HEIGHT: normal;	COLOR: Black; TEXT-DECORATION: none;}
+.butt1{FONT-WEIGHT: bold;font-size: 8pt;FONT-FAMILY:  verdana;	LINE-HEIGHT: normal;	COLOR: black;	BACKGROUND: #cccccc; TEXT-DECORATION: none;width=75px}
+
+.dateHeader{FONT-SIZE: 8pt; COLOR: #000000; FONT-style:normal; FONT-FAMILY: Verdana; FONT-WEIGHT: normal; TEXT-DECORATION: none}
+.dateCalendar{FONT-SIZE: 7pt; COLOR: #000000; FONT-style:normal; FONT-FAMILY: Verdana; FONT-WEIGHT: normal; TEXT-DECORATION: none}
+.sVal{FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: red; FONT-FAMILY: Verdana; TEXT-DECORATION: none}
+
+

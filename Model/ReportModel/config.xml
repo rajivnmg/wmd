@@ -1,0 +1,17 @@
+<configuration xmlns="http://logging.apache.org/log4php/">
+    <appender name="default" class="LoggerAppenderRollingFile">
+       <layout class="LoggerLayoutPattern">
+            <param name="conversionPattern" value="%date [%logger] %-5level  Request:[%request] Message: %msg%n" />
+        </layout>
+			<param name="file" value="../../log/gurgaon.log/myLog.log" />
+			<param name="maxFileSize" value="2MB" />
+			<param name="maxBackupIndex" value="20" />
+		<filter class="LoggerFilterLevelRange">
+            <param name="levelMin" value="info" />
+            <param name="levelMax" value="error" />
+        </filter>
+    </appender>
+    <root>
+        <appender_ref ref="default" />
+    </root>
+</configuration>

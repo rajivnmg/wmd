@@ -1,0 +1,414 @@
+body{padding:0px; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#666666;}
+.clr{ margin:0px; height:0px; padding:0px; clear:both;}
+@media print
+{
+    * {-webkit-print-color-adjust:exact;}
+}
+#main{width:100%; height:auto; overflow: hidden;}
+.top{float:left; z-index:1; width:100%;  background:#F5F5F5;padding:3px 0px; margin-bottom:3px;  margin-top:0px; }
+.logo_top{width:1000px; margin:0 auto; height:auto; padding:10px 0px 10px 0px;}
+.logo_div{ width:370px; height: auto; float:left;}
+.cmpny_nm{font-family:Verdana; font-size:28px; font-weight:700; font-style: italic; color:#233C57; margin-top:15px;}
+.cmpny_add{font-family:Verdana; font-size:15px; margin-top:3px;  color:#233C57;}
+.cmpny_add span{font-weight:700;}
+.logo_right{ width:280px; height:auto; float:right; margin-right:30px;  padding:10px 0px 0px 0px; text-align: right;}
+.social{ height:auto; float:left; overflow:hidden;}
+.social{width:128px; height:auto; float:left;}
+.log_div{width:150px; height:auto; float: right;}
+
+.face{border:0px;}
+.top_twitter{margin-left:15px; border:0px;}
+.log_text{width:150px; height: auto; float: left;}
+.log_text ul{margin:0px; padding:0px;}
+.log_text ul li{ list-style:none; float:left; padding:10px 0px 0px 10px;}
+.log_text ul li a{ text-decoration:none; color:#233C57; font-family:Arial, Helvetica, sans-serif; font-size:14px; text-transform:uppercase; font-weight:700;}
+.log_text ul li a:hover{ color:#EE9400; text-decoration: underline;}
+.navi_cont{width:100%; background: #233C57; height:auto;}
+.navi{width:1000px; height: auto; margin:0 auto;}
+.navi ul{margin:0; padding:0;}
+.navi ul li{ list-style:none; float:left; padding:15px 25px 15px 25px;}
+.navi ul li.first{ list-style:none; float:left; padding:5px 5px 2px 0px;}
+.navi ul li a{ text-decoration:none; color:#fff; font-family:Arial, Helvetica, sans-serif; font-size:14px; text-transform:uppercase; font-weight:700;}
+.navi ul li a:hover{ color:#EE9400;}
+.navi ul li ul{background:#305074; position: absolute; display:none; top:125px;}
+.navi ul li ul li{width:140px; border-right:none; float:none; color:#FFF; font-size:12px; font-family:Arial, Helvetica, sans-serif;}
+.navi ul li:hover ul{display:block;}
+#mid{width:100%; min-height:450px; background:#F5F5F5; padding:0px 0px; margin-bottom:3px; border-top:4px solid #000000; border-bottom :4px solid #000000; float:left}
+#midH{width:100%;position:fixed; min-height:450px; background:#F5F5F5; padding:0px 0px; margin-bottom:3px;  margin-top:0px;}
+.mid_container{width:1000px; height: auto; margin:0 auto;}
+.mid_left{width:200px; height: auto; float: left;}
+.left_navi{width:100%; height: auto; }
+.left_navi ul{margin:0px; padding:0px; border-left:2px solid #979797; border-right:2px solid #979797; border-bottom:2px solid #979797;}
+.left_navi ul li{ list-style:none;}
+.left_navi ul li a{ text-decoration:none; color:#fff; background:#233C57;  padding:15px 0px 15px 25px; display: block; font-family:Arial, Helvetica, sans-serif; font-size:14px; text-transform:uppercase; font-weight:700; border-top:2px solid #979797;}
+.left_navi ul li a:hover{ color:#EE9400;  background:#f5f5f5;}
+.left_navi ul li a.active{ color:#EE9400; background:#f5f5f5;}
+
+
+.mid_right{width:780px; float: right; height: auto;}
+.right_hedi{font-size: 20px; font-weight: bold; color: #292929; text-transform: uppercase;}
+.right_text{font-size: 15px; line-height: 21px; font-weight: normal; color: #292929; margin-top: 17px; text-align: justify;}
+
+#fottr{width:100%; height:auto; background:#233C57; padding:15px 0px;margin-bottom:0px}
+.copy{width:98%; margin:0 auto; height: auto; font-size:14px; font-family:arial; color:#fff; text-align:right;margin-top:10px}
+
+/*-------------------------------------------------------- login css---------------------------------------------------------*/
+.login_container{width:500px; height: auto; margin:0 auto; border:4px solid #979797; margin-top:50px; padding:25px 20px;}
+.login_hedi{font-size:25px; font-weight:700; margin-bottom:15px; font-family:Arial; color:#233C57; text-align: center; border-bottom:4px solid #979797; text-transform: uppercase; line-height:35px}
+.login_row{ height: auto; margin:10px 0px 0px 55px;}
+.log_nam{ margin-top:5px;font-weight:700; float: left; width:150px; font-size:14px; font-family:arial; color:#000000;}
+.log_fld_dv{ width:218px; float: left;}
+.usr_fld{font-size:14px; width:200px; color:#000000; padding:5px 0px 5px 15px; border:1px solid #979797; background:#e4e4e4;}
+.lgn_btn{font-size:14px; width:103px; cursor: pointer;  color:#fff; padding:6px 0px; text-align: center; border:0px; background:#233C57;}
+.lg_mrg_left{margin-left:10px;}
+.frgt_pass{text-align: center;}
+.frgt_pass a{font-size:14px; font-style: italic; font-weight:700; font-family:arial; color:#233C57; text-align: center;}
+.frgt_pass a:hover{text-decoration: none; color:#EE9400;}
+
+/*-------------------------------------------------------- login css---------------------------------------------------------*/
+
+
+/*-------------------------------------------------------- challan css---------------------------------------------------------*/
+.ch{border:4px solid #000000;}
+.ch_nm_dv{border-bottom:2px solid #000000;}
+.ch_hedi{font-size:20px; line-height:35px; text-transform: uppercase; font-family:arial; font-weight:700; color:#233C57; border-bottom:2px solid #000000; text-align: center;}
+.ch_one{width:47.5%; height: auto; float: left; border-right:2px solid #000000; padding:10px 10px 10px 10px;}
+.ch_two{width:50.2%; height: auto; float: right; }
+.ch_txt_ar{width:465px; height:80px; border:1px solid #233C57; font-family:arial; font-size:14px; color:#000000; margin-top:10px;}
+.ch_text{font-size: 15px; background:#e4e4e4; line-height: 21px; font-weight: normal; color: #292929; margin-top: 10px; text-align: justify;}
+.ch_row{margin-top:10px; border-bottom:2px solid #000000;}
+.ch_two_one{width:48.5%; height: auto; float: left; margin-left:10px;}
+.ch_two_tw{width:48.5%; height: auto; float: left;}
+.ch_no{width:122px; height: auto; float: left; font-size:15px; font-family:arial; font-weight:700; color:#292929;}
+.ch_fld_dv{width:115px; height: auto; float: left;}
+.ch_fld_one{font-size:14px; width:105px; border-bottom:1px dotted #233C57; padding:5px 0px 5px 5px; background:#e4e4e4; font-family:arial; border-top:0px; border-left:0px; border-right:0px;} 
+.ch_s_no{width:100px; text-align: center; padding:5px 0px; font-size:15px; font-family:arial; font-weight:700; color:#292929; height: auto; float: left; border-right:2px solid #000000;}
+.ch_prt_no{width:200px; text-align: center;  padding:5px 0px; font-size:15px; font-family:arial; font-weight:700; color:#292929; height: auto; float: left; border-right:2px solid #000000;}
+.ch_decrip_no{width:486px; text-align: center; padding:5px 0px; font-size:15px; font-family:arial; font-weight:700; color:#292929; height: auto; float: left; border-right:2px solid #000000;}
+.ch_quantity{width:200px; text-align: center; padding:5px 0px; font-size:15px; font-family:arial; font-weight:700; color:#292929; height: auto; float: left;}
+.ch_row_one{border-top:2px solid #000000; border-bottom:2px solid #000000;}
+.ch_s_no_one{width:100px; text-align: center; padding:5px 0px; font-size:15px; font-family:arial; font-weight:700; color:#292929; height: auto; float: left; border-right:2px solid #000000;}
+.ch_prt_no_one{width:200px; text-align: center;  padding:5px 0px; font-size:15px; font-family:arial; font-weight:700; color:#292929; height: auto; float: left; border-right:2px solid #000000;}
+.ch_decrip_no_one{width:486px; text-align: center; padding:5px 0px; font-size:15px; font-family:arial; font-weight:700; color:#292929; height: auto; float: left; border-right:2px solid #000000;}
+.ch_quantity_one{width:200px; text-align: center; padding:5px 0px; font-size:15px; font-family:arial; font-weight:700; color:#292929; height: auto; float: left;}
+.ch_s_no_fld{font-size:14px; width:50px; border:1px solid #233C57; padding:5px 0px 5px 5px; background:#e4e4e4; font-family:arial;}
+.ch_prt_no_fld{font-size:14px; width:150px; border:1px solid #233C57; padding:5px 0px 5px 5px; background:#e4e4e4; font-family:arial;}
+.ch_descrip_no_fld{font-size:14px; width:435px; border:1px solid #233C57; padding:5px 0px 5px 5px; background:#e4e4e4; font-family:arial;}
+.ch_quantity_fld{font-size:14px; width:150px; border:1px solid #233C57; padding:5px 0px 5px 5px; background:#e4e4e4; font-family:arial;}
+.ch_ttl{width:402px; float: right; height: auto;}
+.ch_prt_no_two{width:200px; text-align: center;  padding:12px 0px; font-size:15px; font-family:arial; font-weight:700; color:#292929; height: auto; float: left; border-right:2px solid #000000;}
+.ch_btn_dv{text-align: center; padding:5px 0px;}
+
+
+
+
+/*-------------------------------------------------------- challan css---------------------------------------------------------*/
+
+
+/*-------------------------------------------------incoming invoice css---------------------------------------------------------*/
+.invoice_dv{width:1000px; height: auto; margin:0 auto; border:2px solid #000000;}
+.invoice_row{border-top:2px solid #000000; border-bottom:2px solid #000000; margin-top:10px;}
+.invc_one{width:333px; float: left; height: auto; }
+.invoice_on_one{width:145px; height: auto; margin-left:5px; margin-top:8px; float: left; font-size:14px; font-family:arial; font-weight:700;}
+.invoice_on_two{width:178px; height: auto; float: left;}
+.invoice_fld_dv{width:358px; height: auto; float: left;}
+
+.invoice_fld{font-size:14px; width:170px; border:1px solid #233C57; padding:5px 0px 5px 5px; background:#e4e4e4; font-family:arial; }
+.invoice_fld_one{font-size:14px; width:105px; border:1px solid #233C57; padding:5px 0px 5px 5px; background:#e4e4e4; font-family:arial; }
+.invoice_fld_two{font-size:14px; width:190px; border:1px solid #233C57; padding:5px 0px 5px 5px; background:#e4e4e4; font-family:arial; }
+.invoice_txt_ara{font-size:14px; width:356px; border:1px solid #233C57; padding:4px 0px 4px 5px; background:#e4e4e4; font-family:arial; }
+
+.invoice_txt_ara_one{font-size:14px; width:354px; min-height:64px; border:1px solid #233C57; padding:4px 0px 4px 5px; background:#e4e4e4; font-family:arial; }
+
+.invoice_hedi{font-size:20px; text-align: center; background:#e4e4e4; border-bottom:2px solid #000000; font-family:arial; font-weight:700; padding:7px 0px 7px 10px;}
+.incv_two{width:49.6%; height: auto; float: left; border-right:2px solid #000000;}
+.invoice_mg_lft{margin-left:10px;}
+.invoice_thre{width:875px; min-height:150px; float: left; overflow-x: scroll; border-right:2px solid #000000;}
+.invoice_four{width:113px;margin-left:10px; margin-top:10px; height: auto; float: left;}
+/*------------------------------------------------incoming invoice css---------------------------------------------------------*/
+/*------------------------------------------------outgoing invoice css---------------------------------------------------------*/
+.outgng_one{width:395px; float: left; height: auto; }
+.outgng_two{width:330px; float: left; height: auto; }
+.outgng_thre{width:275px; float: left; height: auto; }
+.outgng_fur{width:530px; float: left; height: auto; }
+.outgng_txt{width:130px; height: auto; margin-left:5px; margin-top:8px; float: left; font-size:14px; font-family:arial; font-weight:700;}
+.outgng_txt_two{width:150px; height: auto; margin-left:5px; margin-top:8px; float: left; font-size:14px; font-family:arial; font-weight:700;}
+
+.outgng_txt_thre{width:160px; height: auto; margin-left:5px; margin-top:8px; float: left; font-size:14px; font-family:arial; font-weight:700;}
+
+.outgng_fld_dv{width:248px; height: auto; float: left;}
+.outgng_fld_dv_two{width:180px; height: auto; float: left;}
+.outgng_fld_dv_three{width:120px; height: auto; float: left;}
+.outgng_fld{font-size:14px; width:240px; border:1px solid #233C57; padding:5px 0px 5px 5px; background:#e4e4e4; font-family:arial; }
+
+.outgng_fld_two{font-size:14px; width:170px; border:1px solid #233C57; padding:5px 0px 5px 5px; background:#e4e4e4; font-family:arial; }
+.outgng_fld_thre{font-size:14px; width:100px; border:1px solid #233C57; padding:5px 0px 5px 5px; background:#e4e4e4; font-family:arial; }
+.outgng_slct{font-size:14px; width:247px; border:1px solid #233C57; padding:4px 0px 4px 5px; background:#e4e4e4; font-family:arial; }
+.outgng_slct_two{font-size:14px; width:177px; border:1px solid #233C57; padding:4px 0px 4px 5px; background:#e4e4e4; font-family:arial; }
+
+/*------------------------------------------------outgoing invoice css---------------------------------------------------------*/
+
+/*------------------------------------------------invoice report css---------------------------------------------------------*/
+.tx_ivc{width:600px; height: auto; margin:0 auto;}
+.invc_tp_hedi{text-align:center; font-size:25px; font-family:Arial; color:#000000; text-decoration:underline; text-transform:uppercase;}
+.invc_tp_tw{text-align:center; font-size:18px; font-family:Arial; color:#000000; text-transform:uppercase;}
+.invc_cp{font-size:18px; font-family:Arial; color:#000000; text-transform:uppercase;}
+.invc_runng{font-size:15px; font-family:Arial; color:#000000;}
+.invc_runng span{font-weight:700;}
+.invc_runng_one{font-size:13px; padding:5px; font-family:Arial; color:#000000;}
+.invc_runng_one span{font-weight:700;}
+.invc_runng_two{font-size:15px; font-family:Arial; color:#000000; text-align:center;}
+.invc_tp_one{width:155px; height:auto;}
+.invc_tp_two{width:450px; height:auto;}
+.invc_tp_three{width:280px; height:auto;}
+.invc_one{width:450px; height:auto;}
+.invc_two{width:195px; height:auto;}
+.invc_three{width:140px; height:auto;}
+.invc_multi{font-size:20px; font-family:Arial; color:#000000; text-transform:uppercase;}
+.cst_bdr_one{border-right:1px solid #000000; border-bottom:1px solid #000000; padding:5px;}
+.cst_bdr_two{ border-bottom:1px solid #000000; padding:5px;}
+.cst_bdr_three{ border-right:1px solid #000000; padding:5px; text-align:center;}
+.cst_bdr_fv{text-align:right; padding:5px;}
+.cst_bdr_fr{ border-right:1px solid #000000; padding:5px;}
+.cst_bdr_sx{ border-right:1px solid #000000; padding:5px; text-align:right;}
+.s_one{width:25px; text-align:center;}
+.s_two{width:235px; text-align:center;}
+.s_three{width:270px; text-align:center;}
+.s_for{width:105px; text-align:center;}
+.s_fv{width:35px; text-align:center;}
+.s_sx{width:75px; text-align:center;}
+.tin_one{border-right:1px solid #000000; border-bottom:1px solid #000000; width:260px;  border-left:1px solid #000000; padding:5px; font-family:Arial; font-size:16px; color:#000000;}
+.tin_two{border-bottom:1px solid #000000; padding:5px;}
+.tin_three{ border-right:1px solid #000000; border-bottom:1px solid #000000; padding:5px; text-align:right;}
+.tin_fr{border-right:1px solid #000000; border-bottom:1px solid #000000;   border-left:1px solid #000000; padding:5px; font-family:Arial; font-size:16px; color:#000000;}
+.multi{text-align:right; padding-right:15px; padding-top:0px; font-size:13px; font-style:italic; font-family:Arial; color:#000000;}
+.multi span{font-style: inherit; font-weight:700; }
+.all_txt{font-size:11px; font-family:Arial; color:#000000;}
+.auth{font-size:13px; font-family:Arial; color:#000000; text-align:center; padding-top:20px;}
+.oks{font-size:25px; font-family:Arial; color:#000000; text-align:center; padding-top:10px;}
+.lubri{font-size:15px; font-family:Arial; color:#000000; text-align:center; padding:5px 5px 25px 5px; border-bottom:1px solid #000000;}
+.regi{font-size:13px; font-family:Arial; color:#000000; text-align:center; padding-top:10px;}
+/*------------------------------------------------invoice report css---------------------------------------------------------*/
+
+/*------------------------------------------------excise report css---------------------------------------------------------*/
+.exc_cont{width:985px; height:auto; margin:0 auto; font-size:11px; font-family:Arial; color:#000000;}
+.cenvt{font-size:15px; font-family:Arial; color:#000000; font-weight:700; text-align:center;}
+.exc_bdr_lft{border-left:1px solid #000000; }
+.multiweld_bdr{border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000;}
+.exc_bdr_left_rght{border-left:1px solid #000000; border-right:1px solid #000000;}
+.exc_bdr_right{border-right:1px solid #000000; }
+.exc_bdr_top_rght{ border-right:1px solid #000000; border-top:1px solid #000000;}
+.exc_bdr_top_lft{ border-left:1px solid #000000; border-top:1px solid #000000;}
+.exc_bdr_top{ border-top:1px solid #000000;}
+.valid_bdr{border-bottom:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000;}
+.exc_bdr_rght_btm{border-bottom:1px solid #000000; border-right:1px solid #000000; }
+.exc_bdr_lft_rght_btm{border-bottom:1px solid #000000; border-right:1px solid #000000; border-left:1px solid #000000; }
+.exc_oks{width:80px; float:left; text-align:center;}
+.exc_henkl{width:140px; float:left; text-align:center;}
+
+/*------------------------------------------------excise report css---------------------------------------------------------*/
+#kapil{transform:rotate (90deg); -webkit-transform:rotate(90deg); -ms-transform:rotate(90deg); background:#000000; color:#fff; width:100px; height:50px;}
+
+
+
+
+/*-------------------------------------------------------- Purchase Order---------------------------------------------------------*/
+
+#mainpo
+{
+    width:80%;
+    margin-left:10%;
+    margin-right:10%;
+    border:1PX SOLID BLACK;
+    height:620px;
+}
+#headerpo
+{
+    width:100%;
+    height:60px;
+}
+#leftheaderpo
+{
+    width:45%;
+    float:left;
+    height:40px;
+   
+    padding:10px 0px 10px 5%;
+    font-size:24px;
+    
+    font-weight:bold;
+}
+#rightheaderpo
+{
+    width:40%;
+    float:right;
+    height:40px;
+     padding:10px 0px 10px 10%;
+    font-size:24px;
+    
+    
+}
+#shipping
+{
+    width:100%;
+    
+}
+#leftshipping
+{
+    width:50%;
+    float:left;
+    text-align:center
+}
+#rightshipping
+{
+    width:50%;
+    float:right;
+    text-align:center
+}
+#particularpo
+{
+    width:90%;
+    margin-left:5%;
+    margin-right:5%;
+    margin-top:10px;
+}
+
+#comment
+{
+    width:40%;
+    margin-left:15%;
+    margin-top:5px;
+    border:1px solid black;
+}
+#commenttitle
+{
+    width:100%;
+    border-bottom:1px solid black;
+    font-weight:bold;
+    text-align:center;
+   
+}
+#commenttext
+{
+     height:100px;
+}
+
+
+
+/*-------------------------------------------------------- Sales Quotation---------------------------------------------------------*/
+
+#mainsq
+{
+    width:80%;
+    height:auto;
+    margin-left:10%;
+    margin-right:10%;
+}
+#headersq
+{
+    width:100%;
+    height:50px;
+}
+#leftheadersq
+{
+    width:45%;
+    float:left;
+    height:30px;
+    background-color:#0000FF;
+    padding:10px 0px 10px 5%;
+    font-size:24px;
+    color:White;
+    font-weight:bold;
+}
+#rightheadersq
+{
+    width:40%;
+    float:right;
+    height:40px;
+     padding:5px 0px 5px 10%;
+    font-size:28px;
+    
+    font-weight:bold;
+}
+#customerdetailssq
+{
+    width:100%;
+    height:100px;
+}
+#leftcustomerdetailssq
+{
+    width:50%;
+    float:left;
+    height:90px;
+    padding:5px 0px 5px 0%;
+    font-weight:bold;
+    font-size:20px;
+    
+}
+#rightcustomerdetailssq
+{
+    width:50%;
+    float:right;
+    height:90px;
+    padding:5px 0px 5px 0%;
+    
+}
+#details
+{
+    width:100%;
+    height:150px;
+    
+}
+#leftdetails
+{
+    width:49%;
+    height:148px;
+    border:2px solid black;
+    float:left;
+}
+#rightdetails
+{
+    width:50%;
+    height:150px;
+    
+    float:right;
+}
+#thanku
+{
+    width:100%;
+    height:60px;
+}
+#leftthanku
+{
+    width:49%;
+    float:left;
+    padding:15px 0px 10px 1%;
+    height:35px;
+}
+#rightthanku
+{
+    width:50%;
+    float:right;
+    
+}
+#particularsq
+{
+    width:100%;
+    
+}
+#revert
+{
+    width:100%;
+    
+}
+#leftrevert
+{
+    width:60%;
+    float:left;
+}
+#rightrevert
+{
+    width:40%;
+    float:right;
+}
+
